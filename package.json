@@ -1,0 +1,20 @@
+{
+  "name": "video-chat-server",
+  "version": "1.0.0",
+  "description": "Node Server & React App video conf",
+  "main": "server.js",
+  "repository": "https://github.com/naveengangadharappa/Video_Conference.git",
+  "author": "Naveen G",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.4.0",
+    "update-json-file": "^1.1.1",
+    "username-generator": "^1.1.0",
+    "validatorjs": "^3.21.0"
+  }
+}

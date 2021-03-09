@@ -1,0 +1,13 @@
+Step 1 : -      To install React Dependencies
+		Navigate to -> react_client-> execute npm install
+
+Step 2 :-	To install nodejs Dependencies
+		navigate inside project root folder-> exectute npm install
+
+Step 3 :- 	download Xampp Server
+		Load Database from videoconf.sql file 
+
+Step 4:- 	Execute project 
+		nodemon start
+
+

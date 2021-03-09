@@ -1,0 +1,66 @@
+{
+	"log": [
+		{
+			"DateTime": 30,
+			"Errormsg": {
+				"code": "ER_BAD_FIELD_ERROR",
+				"errno": 1054,
+				"sqlMessage": "Unknown column 'undefined' in 'field list'",
+				"sqlState": "42S22",
+				"index": 0,
+				"sql": "INSERT INTO question(Question_Title, Level_Id, Sublevel_Id, Pattern_Id, Hint_Id) values('Question 3 new discription',3,2,3,undefined)"
+			}
+		},
+		{
+			"DateTime": 6,
+			"Errormsg": {
+				"code": "ER_PARSE_ERROR",
+				"errno": 1064,
+				"sqlMessage": "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?)' at line 1",
+				"sqlState": "42000",
+				"index": 0,
+				"sql": "insert into users(User_Name,User_Mobile_No) values('Naveen-G','7483334815',?)"
+			}
+		},
+		{
+			"DateTime": 6,
+			"Errormsg": {
+				"code": "ER_DUP_ENTRY",
+				"errno": 1062,
+				"sqlMessage": "Duplicate entry '7483334815' for key 'User_Mobile_No'",
+				"sqlState": "23000",
+				"index": 0,
+				"sql": "insert into users(User_Name,User_Mobile_No) values('Naveen-G','7483334815')"
+			}
+		},
+		{
+			"DateTime": 6,
+			"Errormsg": {
+				"code": "ER_DUP_ENTRY",
+				"errno": 1062,
+				"sqlMessage": "Duplicate entry '7483334815' for key 'User_Mobile_No'",
+				"sqlState": "23000",
+				"index": 0,
+				"sql": "insert into users(User_Name,User_Mobile_No) values('Naveen-G','7483334815')"
+			}
+		},
+		{
+			"DateTime": 6,
+			"Errormsg": {
+				"code": "ER_DUP_ENTRY",
+				"errno": 1062,
+				"sqlMessage": "Duplicate entry '7483334815' for key 'User_Mobile_No'",
+				"sqlState": "23000",
+				"index": 0,
+				"sql": "insert into users(User_Name,User_Mobile_No) values('Naveen-G','7483334815')"
+			}
+		},
+		{
+			"DateTime": 7,
+			"Errormsg": {
+				"code": "PROTOCOL_ENQUEUE_AFTER_FATAL_ERROR",
+				"fatal": false
+			}
+		}
+	]
+}
