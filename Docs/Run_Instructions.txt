@@ -9,5 +9,11 @@ Step 3 :- 	download Xampp Server
 
 Step 4:- 	Execute project 
 		nodemon start
+		
+step 5:- 	open http://localhost:3000/ in 2 Tabs 
+		1)Register 2 different Account
+		2)login with 2 different account in 2 different tab
+		3)select call duration and click on Call Button
+		
 
 
